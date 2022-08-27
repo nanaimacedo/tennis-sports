@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); 
+
+:root {
+  --primary-color: #c79d44;
+  --secondary-color:#2b6323;
+  --background-color:#314957
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: larger;
+  color:var(--primary-color);
+
+}
+.smartphone{
+  background-image: linear-gradient(to left top, #0c1d25, #12252f, #192e39, #203743, #27404e);
+ height:750px;
+ width:400px;
+ border-radius: 3%;
+ justify-content: center;
+ padding: 10px;
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+#logo img {
+  width: 150px;
+}
+
+.texts{
+  text-align: center;
+}
+
+.player{
+  margin-top: 45px;
+  text-align: center;
+}
+.player img{
+  width: 300px;
+}
+
+.buttons{
+  text-align: center;
+}
+
+.buttons span{
+  
+  background-color:var(--primary-color);
+	border-radius:28px;
+	border:1px solid #26291d;
+	display:inline-block;
+	color:#ffffff;
+	font-size:17px;
+	padding:15px 70px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px var(--secondary-color);
+}
+
+.buttons span:hover{
+  background-color: var(--secondary-color);
+  transition-duration: 1s;
+}
+
+.footer{
+  display: flex;
+  padding: 10px 0px;
+  justify-content: space-evenly;
+}
+.footer button{
+  background-color:var(--background-color);
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	color:#ffffff;
+	font-size:12px;
+  padding: 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px var(--secondary-color);
+}
+/* 
+justify-content  <----->
+
+align-itens up and down */
